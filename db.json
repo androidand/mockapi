@@ -1,0 +1,104 @@
+{
+    "appliances": [
+        {
+            "id": "rvc1",
+            "name": "GoldDigger",
+            "tasks": [
+                {
+                    "id": "robot-schedule-v1",
+                    "enabled": true,
+                    "start": {
+                        "weekDays": [
+                            "Monday"
+                        ],
+                        "time": "18:45",
+                        "properties": {
+                            "goZonesId": [],
+                            "persistentMapId": null,
+                            "powerModes": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "rvc2",
+            "name": "Animal",
+            "tasks": [
+                {
+                    "id": "robot-schedule-v2-task1of7",
+                    "enabled": true,
+                    "start": {
+                        "weekDays": [
+                            "Monday"
+                        ],
+                        "time": "18:45",
+                        "properties": {
+                            "goZonesId": [],
+                            "persistentMapId": null,
+                            "powerModes": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "air1",
+            "name": "Aegget",
+            "tasks": [
+                {
+                    "id": "himalaya-event-rule-groupf04a7d97-55a5-4909-92e8-978086a9bb82",
+                    "enabled": true,
+                    "start": {
+                        "weekDays": [
+                            "Monday"
+                        ],
+                        "time": "18:45",
+                        "properties": {
+                            "workMode": "auto"
+                        }
+                    },
+                    "end": {
+                        "weekDays": [
+                            "Tuesday"
+                        ],
+                        "time": "07:45",
+                        "properties": {
+                            "workMode": "powerOff"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "air2",
+            "name": "Rönnen",
+            "tasks": [
+                {
+                    "id": "aspen-task-1",
+                    "enabled": true,
+                    "start": {
+                        "weekDays": [
+                            "Monday",
+                            "Tuesday"
+                        ],
+                        "time": "18:45",
+                        "properties": {
+                            "workMode": "superSmart"
+                        }
+                    },
+                    "end": {
+                        "weekDays": [
+                            "Monday",
+                            "Tuesday"
+                        ],
+                        "time": "07:45",
+                        "properties": {
+                            "workMode": "standBy"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
